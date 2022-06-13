@@ -1,3 +1,11 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -45,4 +53,55 @@ p, li {
     font-weight: 700;
     text-align: center;
     text-decoration: none;
+}
+
+#header{
+    /* border: 3px solid red; */
+    background-image: url(/images/SmileTrybe.jpg);
+    background-size: cover;
+    background-position: 50% 25%;
+    padding: 60px 30px 40px;
+    height: 498px;
+}
+
+#header-content {
+    /* border: 3px solid red; */
+    max-width: 660px;
+    position: relative;
+    left: 20%;
+}
+
+
+/*Ajustar todos os p que tiverem dentri dessa div com margin*/
+#header-content p {
+    margin: 2em 0em;
+}
+
+
+/*Empurrar o botao um pouco mais pra baixo com margin*/
+#header-content a {
+    position: relative;
+    top: 10px;
+
+}
+
+.header-text{
+    max-width: 80%;
+}
+
+.market {
+    /* border: 3px solid blue; */
+    padding: 6em 30px;
+    text-align: center;
+
+}
+
+.market-text {
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.market-text p {
+    margin: 2em;
 }
