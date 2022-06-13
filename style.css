@@ -105,3 +105,22 @@ p, li {
 .market-text p {
     margin: 2em;
 }
+
+#Alunos-section {
+    /* border: 3px solid red; */
+    text-align: center
+}
+
+.student-testimonial{
+    /* border: 3px solid blue; */
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+.student-testimonial p {
+    margin: 1em;
+
+}
