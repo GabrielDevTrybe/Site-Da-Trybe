@@ -31,6 +31,8 @@ p, li {
     font-size: 28px;
     line-height: 42px;
     font-weight: 600;
+    position: relative;
+    right: -15px;
 }
 
 .testimonial-title{
@@ -53,6 +55,8 @@ p, li {
     font-weight: 700;
     text-align: center;
     text-decoration: none;
+    position: relative;
+    top: 27px;
 }
 
 #header{
@@ -123,4 +127,44 @@ p, li {
 .student-testimonial p {
     margin: 1em;
 
+}
+
+#learning {
+    /* border: 3px solid red; */
+    background-color: #f5f5f5;
+    padding: 6em 275px;
+}
+
+#learning-left {
+    /* border: 3px solid red; */
+    float: left;
+    max-width: 45%;
+}
+
+#learning-left li {
+    margin: 30px;
+}
+
+#learning-right {
+    /* border: 3px solid red; */
+    float: right;
+    height: 325px;
+}
+
+.clear {
+/* border: 3px solid green; */
+clear: both;
+text-align: center;
+margin: 6em;
+position: relative;
+top: 80px;
+}
+
+.img-position{
+    height: 326px;
+}
+
+.clear p {
+    font-weight: 600;
+    color: #11a36a;
 }
